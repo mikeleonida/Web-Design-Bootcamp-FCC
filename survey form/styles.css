@@ -1,0 +1,28 @@
+main {
+  background-color: black;
+  color: white;
+}
+
+#form-styling {
+  /* width: 60%; */
+  background-color: yellowgreen;
+}
+
+.text-question {
+  display: block;
+  padding: 0.5rem;
+}
+
+form input[type='text'] {
+  display: block;
+}
+
+input[type='submit'] {
+  display: block;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: black;
+  color: white;
+  min-width: 60px;
+}
