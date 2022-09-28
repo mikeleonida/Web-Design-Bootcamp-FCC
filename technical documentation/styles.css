@@ -1,0 +1,13 @@
+@media screen and (max-width: 600px) {
+  header h1 {
+    background-color: yellowgreen;
+  }
+}
+
+header h1 {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
