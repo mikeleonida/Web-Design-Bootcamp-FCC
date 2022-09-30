@@ -11,3 +11,83 @@ header h1 {
 li {
   list-style: none;
 }
+
+.nav-link {
+  position: sticky;
+}
+
+@media screen and (min-width: 601px) {
+  #main-doc {
+    display: flex;
+    flex-direction: row;
+  }
+
+  header h1 {
+    /* text-align: center; */
+    font-size: 1.5rem;
+    color: green;
+  }
+
+  .details-sections {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav {
+    display: block;
+  }
+
+  #navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: dashed yellowgreen;
+    /* border-left: dashed yellowgreen; */
+  }
+
+  #navbar li {
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    font-size: 1.5rem;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-top: 2px dashed yellowgreen;
+  }
+
+  #navbar li:last-of-type {
+    border-bottom: 2px dashed yellowgreen;
+  }
+
+  .nav-link {
+    color: #4d4e53;
+  }
+
+  span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    /* text-decoration: underline; */
+  }
+
+  li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+  }
+
+  section {
+    /* color: #4d4e53; */
+    margin: auto;
+    font-size: 0.96em;
+    margin-left: 300px;
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+}
