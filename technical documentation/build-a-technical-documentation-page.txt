@@ -16,7 +16,7 @@
           <li><a class="nav-link" href="#Introduction">Introduction</a></li>
           <li>
             <a class="nav-link" href="#What_you_should_already_know"
-              >What you should already know</a
+              ><span>What you should already know</span></a
             >
           </li>
           <li>
@@ -29,127 +29,136 @@
           <li><a class="nav-link" href="#Reference">Reference</a></li>
         </ul>
       </nav>
-
-      <section class="main-section" id="Introduction">
-        <header>
-          <h2>Introduction</h2>
-        </header>
-        <p>
-          Java is a very popular strongly-typed programming language used by
-          developers worldwide. To declare a variable's type, you simply mention
-          it before the variable name as follows:
-        </p>
-        <code>String myString;</code>
-        <p>
-          There are also primitive types in Java, making operations involving
-          them more efficient by optimizing the necessary storage bits or bytes.
-          These declarations are example of primitive types, which always start
-          with a lowercase letter:
-        </p>
-        <code>int myNumber;</code>
-        <br />
-        <code>double myDecimalNumber;</code>
-        <br />
-        <code>char myCharacter;</code>
-        <p>
-          Oracle Corp. (headquartered in Redwood Ciy, CA, United States of
-          America) is the current owner of Java. Oracle releases new updates to
-          Java called JDK's on a yearly-or-so basis.
-        </p>
-      </section>
-      <section class="main-section" id="What_you_should_already_know">
-        <header><h2>What you should already know</h2></header>
-        <p>Java has been around since before the turn of the century.</p>
-        <p>
-          With hundreds of thousands of developers worldwide, Java is one of the
-          more popular backend development languages today.
-        </p>
-      </section>
-      <section class="main-section" id="JavaScript_and_Java">
-        <header><h2>JavaScript and Java</h2></header>
-        <p>
-          JavaScript and Java are similar in some ways but fundamentally
-          different in some others. The JavaScript language resembles Java but
-          does not have Java's static typing and strong type checking.
-        </p>
-
-        <p>
-          In contrast to Java's compile-time system of classes built by
-          declarations, JavaScript supports a runtime system based on a small
-          number of data types representing numeric, Boolean, and string values.
-        </p>
-      </section>
-      <section class="main-section" id="Hello_World">
-        <header><h2>Hello World</h2></header>
-        <article>
-          <p>
-            To get started with writing Java, open your favorite Java IDE (for
-            example Eclipse, Spring Tool Suite, JDeveloper, etc) and write your
-            first "Hello world" Java code:
-          </p>
-          <code>
-            class Main { public static void main(String args[]) {
-            System.out.println("Hello World!"); } }
-          </code>
-          <p>
-            Run the class from the IDE tools and watch your first piece of Java
-            magic unfold!
-          </p>
-        </article>
-      </section>
-
-      <section class="main-section" id="Data_types">
-        <header><h2>Data types</h2></header>
-        <article>
-          <p>
-            The latest Java Development Kit has many data types, including the
-            following:
-          </p>
-          <ul>
-            <li>
-              <p>Some data types that are primitives start with lowercase:</p>
-              <ul>
-                <li>boolean. true and false.</li>
-                <li>null. A special keyword denoting a null value.</li>
-                <li>int. 42 or -5</li>
-                <li>float. 3.14159 or other decimals</li>
-              </ul>
-            </li>
+      <div class="details-sections">
+        <section class="main-section" id="Introduction">
+          <header>
+            <h2>Introduction</h2>
+          </header>
+          <article>
+            <p>
+              Java is a very popular strongly-typed programming language used by
+              developers worldwide. To declare a variable's type, you simply
+              mention it before the variable name as follows:
+            </p>
+            <code>String myString;</code>
+            <p>
+              There are also primitive types in Java, making operations
+              involving them more efficient by optimizing the necessary storage
+              bits or bytes. These declarations are example of primitive types,
+              which always start with a lowercase letter:
+            </p>
+            <code>int myNumber;</code>
             <br />
-            <li>
-              and descendants of Object that start with an uppercase letter,
-              these are not primitive types. For example, String. "Howdy"
-            </li>
-          </ul>
-          Although these data types are a relatively small amount, they enable
-          you to perform useful functions with your applications. Objects and
-          functions are the other fundamental elements in the language. You can
-          think of objects as named containers for values, and functions as
-          procedures that your application can perform.
-        </article>
-      </section>
+            <code>double myDecimalNumber;</code>
+            <br />
+            <code>char myCharacter;</code>
+            <p>
+              Oracle Corp. (headquartered in Redwood Ciy, CA, United States of
+              America) is the current owner of Java. Oracle releases new updates
+              to Java called JDK's on a yearly-or-so basis.
+            </p>
+          </article>
+        </section>
+        <section class="main-section" id="What_you_should_already_know">
+          <header><h2>What you should already know</h2></header>
+          <article>
+            <p>Java has been around since before the turn of the century.</p>
+            <p>
+              With hundreds of thousands of developers worldwide, Java is one of
+              the more popular backend development languages today.
+            </p>
+          </article>
+        </section>
+        <section class="main-section" id="JavaScript_and_Java">
+          <header><h2>JavaScript and Java</h2></header>
+          <article>
+            <p>
+              JavaScript and Java are similar in some ways but fundamentally
+              different in some others. The JavaScript language resembles Java
+              but does not have Java's static typing and strong type checking.
+            </p>
 
-      <section class="main-section" id="Reference">
-        <header><h2>Reference</h2></header>
-        <article>
-          <p>
-            All the documentation in this page is taken from
-            <a href="https://www.oracle.com/java/" target="_blank">
-              https://www.oracle.com/java/
-            </a>
-          </p>
-          <p>
-            More information about this and other Oracle products can be found
-            at
-            <a href="https://www.oracle.com/" target="_blank">
-              https://www.oracle.com
-            </a>
-          </p>
-        </article>
-      </section>
+            <p>
+              In contrast to Java's compile-time system of classes built by
+              declarations, JavaScript supports a runtime system based on a
+              small number of data types representing numeric, Boolean, and
+              string values.
+            </p>
+          </article>
+        </section>
+        <section class="main-section" id="Hello_World">
+          <header><h2>Hello World</h2></header>
+          <article>
+            <p>
+              To get started with writing Java, open your favorite Java IDE (for
+              example Eclipse, Spring Tool Suite, JDeveloper, etc) and write
+              your first "Hello world" Java code:
+            </p>
+            <code>
+              class Main { public static void main(String args[]) {
+              System.out.println("Hello World!"); } }
+            </code>
+            <p>
+              Run the class from the IDE tools and watch your first piece of
+              Java magic unfold!
+            </p>
+          </article>
+        </section>
+
+        <section class="main-section" id="Data_types">
+          <header><h2>Data types</h2></header>
+          <article>
+            <p>
+              The latest Java Development Kit has many data types, including the
+              following:
+            </p>
+            <ul>
+              <li>
+                <p>Some data types that are primitives start with lowercase:</p>
+                <ul>
+                  <li>boolean. true and false.</li>
+                  <li>null. A special keyword denoting a null value.</li>
+                  <li>int. 42 or -5</li>
+                  <li>float. 3.14159 or other decimals</li>
+                </ul>
+              </li>
+              <br />
+              <li>
+                and descendants of Object that start with an uppercase letter,
+                these are not primitive types. For example, String. "Howdy"
+              </li>
+            </ul>
+            Although these data types are a relatively small amount, they enable
+            you to perform useful functions with your applications. Objects and
+            functions are the other fundamental elements in the language. You
+            can think of objects as named containers for values, and functions
+            as procedures that your application can perform.
+          </article>
+        </section>
+
+        <section class="main-section" id="Reference">
+          <header><h2>Reference</h2></header>
+          <article>
+            <p>
+              All the documentation in this page is taken from
+              <a href="https://www.oracle.com/java/" target="_blank">
+                https://www.oracle.com/java
+              </a>
+            </p>
+            <p>
+              More information about this and other Oracle products can be found
+              at
+              <a href="https://www.oracle.com/" target="_blank">
+                https://www.oracle.com
+              </a>
+            </p>
+          </article>
+        </section>
+      </div>
     </main>
   </body>
 </html>
+
 
 ** end of undefined **
 
@@ -168,6 +177,87 @@ header h1 {
 li {
   list-style: none;
 }
+
+.nav-link {
+  position: sticky;
+}
+
+@media screen and (min-width: 601px) {
+  #main-doc {
+    display: flex;
+    flex-direction: row;
+  }
+
+  header h1 {
+    /* text-align: center; */
+    font-size: 1.5rem;
+    color: green;
+  }
+
+  .details-sections {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav {
+    display: block;
+  }
+
+  #navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: dashed yellowgreen;
+    /* border-left: dashed yellowgreen; */
+  }
+
+  #navbar li {
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    font-size: 1.5rem;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-top: 2px dashed yellowgreen;
+  }
+
+  #navbar li:last-of-type {
+    border-bottom: 2px dashed yellowgreen;
+  }
+
+  .nav-link {
+    color: #4d4e53;
+  }
+
+  span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    /* text-decoration: underline; */
+  }
+
+  li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+  }
+
+  section {
+    /* color: #4d4e53; */
+    margin: auto;
+    font-size: 0.96em;
+    margin-left: 300px;
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+}
+
 
 ** end of undefined **
 
