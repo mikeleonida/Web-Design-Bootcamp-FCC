@@ -1,0 +1,42 @@
+* {
+  background-color: teal;
+  color: linen;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+}
+
+#nav-bar {
+  /* display: flex;
+  flex-direction: row !important; */
+  position: fixed;
+  top: 0;
+  right: 10vw;
+}
+
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#nav-bar li {
+  list-style: none;
+  text-decoration: none;
+  /* position: relative; */
+  text-align: center;
+  /* border-top: 2px dashed yellowgreen; */
+}
+
+#nav-bar li:hover {
+  background-color: yellow !important;
+}
+
+@media only screen and (max-width: 600px) {
+  #header {
+    color: yellowgreen;
+  }
+}

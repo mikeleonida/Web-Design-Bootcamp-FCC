@@ -1,0 +1,166 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="" />
+  <title>Cats Landing Page</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <div id="page-wrapper">
+    <header id="header">
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#info1">Info 1</a></li>
+          <li><a class="nav-link" href="#info2">Info 2</a></li>
+          <li><a class="nav-link" href="#info3">Info 3</a></li>
+        </ul>
+      </nav>
+
+      <h1>Cats Landing Page</h1>
+
+      <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Cat_poster_1.jpg"
+          alt="cat image"
+          id="header-img"
+        />
+    </header>
+    <hr />
+    <section id="hero">
+      <h2>Enter your email for more feline news!</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+        <input id="submit" type="submit" value="Get Started" class="btn" />
+      </form>
+    </section>
+    <hr />
+    <div class="container">
+      <section id="info1">
+        <p>
+          Had strictly mrs handsome mistaken cheerful. We it so if resolution
+          invitation remarkably unpleasant conviction. As into ye then form.
+          To easy five less if rose were. Now set offended own out required
+          entirely. Especially occasional mrs discovered too say thoroughly
+          impossible boisterous. My head when real no he high rich at with.
+          After so power of young as. Bore year does has get long fat cold saw
+          neat. Put boy carried chiefly shy general.
+        </p>
+        <p>
+          Adieus except say barton put feebly favour him. Entreaties
+          unpleasant sufficient few pianoforte discovered uncommonly ask.
+          Morning cousins amongst in mr weather do neither. Warmth object
+          matter course active law spring six. Pursuit showing tedious unknown
+          winding see had man add. And park eyes too more him. Simple excuse
+          active had son wholly coming number add. Though all excuse ladies
+          rather regard assure yet. If feelings so prospect no as raptures
+          quitting.
+        </p>
+      </section>
+      <hr />
+      <section id="info2">
+        <p>
+          Sussex result matter any end see. It speedily me addition weddings
+          vicinity in pleasure. Happiness commanded an conveying breakfast in.
+          Regard her say warmly elinor. Him these are visit front end for
+          seven walls. Money eat scale now ask law learn. Side its they just
+          any upon see last. He prepared no shutters perceive do greatest. Ye
+          at unpleasant solicitude in companions interested.
+        </p>
+        <p>
+          Depart do be so he enough talent. Sociable formerly six but
+          handsome. Up do view time they shot. He concluded disposing
+          provision by questions as situation. Its estimating are motionless
+          day sentiments end. Calling an imagine at forbade. At name no an
+          what like spot. Pressed my by do affixed he studied.
+        </p>
+        <iframe id="video" height="315"
+          src="https://www.youtube-nocookie.com/embed/gT5OwOBqLR4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
+          allowfullscreen></iframe>
+      </section>
+      <hr />
+      <section id="info3">
+        <p>
+          Adieus except say barton put feebly favour him. Entreaties
+          unpleasant sufficient few pianoforte discovered uncommonly ask.
+          Morning cousins amongst in mr weather do neither. Warmth object
+          matter course active law spring six. Pursuit showing tedious unknown
+          winding see had man add. And park eyes too more him. Simple excuse
+          active had son wholly coming number add. Though all excuse ladies
+          rather regard assure yet.
+        </p>
+        <p>
+          If feelings so prospect no as raptures quitting. Prepared do an
+          dissuade be so whatever steepest. Yet her beyond looked either day
+          wished nay. By doubtful disposed do juvenile an. Now curiosity you
+          explained immediate why behaviour. An dispatched impossible of of
+          melancholy favourable. Our quiet not heart along scale sense timed.
+          Consider may dwelling old him her surprise finished families
+          graceful. Gave led past poor met fine was new.
+        </p>
+      </section>
+    </div>
+  </div>
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  background-color: teal;
+  color: linen;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+}
+
+#nav-bar {
+  /* display: flex;
+  flex-direction: row !important; */
+  position: fixed;
+  top: 0;
+  right: 10vw;
+}
+
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#nav-bar li {
+  list-style: none;
+  text-decoration: none;
+  /* position: relative; */
+  text-align: center;
+  /* border-top: 2px dashed yellowgreen; */
+}
+
+#nav-bar li:hover {
+  background-color: yellow !important;
+}
+
+@media only screen and (max-width: 600px) {
+  #header {
+    color: yellowgreen;
+  }
+}
+
+** end of undefined **
+
