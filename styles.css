@@ -4,10 +4,10 @@
 }
 
 :root {
-  --main-white: #f0f0f0;
+  --main-white: linen;
   --main-green: yellowgreen;
   --main-blue: #45567d;
-  --main-gray: #303841;
+  --main-gray: teal;
 }
 
 body {
@@ -15,6 +15,7 @@ body {
   font-weight: 400;
   line-height: 1.4;
   color: var(--main-white);
+  background-color: var(--main-green);
 }
 
 #navbar {
@@ -23,9 +24,10 @@ body {
   top: 0;
   right: 0;
   width: 100vw;
-  background-color: teal;
-  color: white;
-  height: 4rem;
+  background-color: var(--main-gray);
+  color: var(--main-white);
+  height: 3.6rem;
+  justify-items: center;
   padding-top: 0.5rem;
   z-index: 10;
   opacity: 100;
@@ -41,32 +43,77 @@ nav > ul {
 #navbar li {
   list-style: none;
   text-decoration: none;
-  /* position: relative; */
   text-align: center;
   color: linen;
-  /* border-top: 2px dashed yellowgreen; */
+  /* border-top: 2px dashed var(--main-green); */
 }
 
 @media screen and (max-width: 500px) {
   body {
-    background-color: yellowgreen;
+    background-color: var(--main-gray);
   }
 }
 
 #welcome-section {
   padding-top: 15vh;
   height: 55vh;
+  text-align: center;
   background-color: var(--main-green);
 }
 
+#projects {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 3.6rem;
+  direction: auto;
+  padding: 0 2rem;
+  justify-items: auto;
+  background: var(--main-gray);
+}
+
 .project-tile {
-  height: 300px;
-  width: 300px;
-  background-color: blue;
+  height: 200px;
+  width: 200px;
+  background-color: var(--main-blue);
   margin: 5px;
 }
 
-img {
-  width: 500px;
+.project-tile img {
+  width: 300px;
   height: auto;
+}
+
+.contact-section {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
+  padding: 0 2rem;
+  background: var(--main-green);
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-white);
+}
+
+#contact a {
+  color: black;
+  display: inline-table;
+}
+
+.fab {
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 5;
+  width: 2rem;
+  height: 2rem;
+  /* color: rgba(197, 11, 166, 0.449); */
+  color: yellow;
 }
