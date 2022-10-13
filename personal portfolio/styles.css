@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-white: #f0f0f0;
+  --main-green: yellowgreen;
+  --main-blue: #45567d;
+  --main-gray: #303841;
+}
+
+body {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--main-white);
+}
+
+#navbar {
+  /* position: sticky; */
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  background-color: teal;
+  color: white;
+  height: 4rem;
+  padding-top: 0.5rem;
+  z-index: 10;
+  opacity: 100;
+}
+
+nav > ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#navbar li {
+  list-style: none;
+  text-decoration: none;
+  /* position: relative; */
+  text-align: center;
+  color: linen;
+  /* border-top: 2px dashed yellowgreen; */
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: yellowgreen;
+  }
+}
+
+#welcome-section {
+  padding-top: 15vh;
+  height: 55vh;
+  background-color: var(--main-green);
+}
+
+.project-tile {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+  margin: 5px;
+}
+
+img {
+  width: 500px;
+  height: auto;
+}
