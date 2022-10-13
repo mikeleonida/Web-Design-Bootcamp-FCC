@@ -1,0 +1,209 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- START NAV -->
+
+  <nav id="navbar" class="nav">
+    <ul class="nav-list">
+      <li>
+        <a href="#welcome-section">About</a>
+      </li>
+      <li>
+        <a href="#projects">Work</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- END NAV -->
+
+  <!-- START WELCOME SECTION -->
+  <!-- put images in github or replit.com -->
+  <section id="welcome-section" class="welcome-section">
+    <h1>Hello I am Michael,</h1>
+    <p>a web designer</p>
+  </section>
+
+  <!-- END WELCOME SECTION -->
+
+  <!-- START PROJECTS SECTION -->
+
+  <section id="projects" class="projects-section">
+    <div class="projects-grid">
+      <a href="https://leoleocards.multiscreensite.com" target="_blank" class="project project-tile">
+        <img
+            class="project-image"
+            src="https://mikeleonida.github.io/Web-Design-Bootcamp-FCC/public/PersonalSportsCardsSite.jpg"
+            alt="project"
+          />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Sports Card Collection
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+
+      <a href="https://mikeleonida.github.io/Web-Design-Bootcamp-FCC/tribute%20page/index.html" target="_blank"
+        class="project project-tile">
+        <img
+            class="project-image"
+            src="https://mikeleonida.github.io/Web-Design-Bootcamp-FCC/public/TributePage.jpg"
+            alt="project"
+          />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Tribute Page
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+
+      <a href="https://mikeleonida.github.io/Web-Design-Bootcamp-FCC/technical%20documentation/index.html"
+        target="_blank" class="project project-tile">
+        <img
+            class="project-image"
+            src="https://mikeleonida.github.io/Web-Design-Bootcamp-FCC/public/TechDocumentationPage.jpg"
+            alt="project"
+          />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Technical Documentation Page
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+
+      <a href="https://mikeleonida.github.io/Web-Design-Bootcamp-FCC/survey%20form/index.html" target="_blank"
+        class="project project-tile">
+        <img
+            class="project-image"
+            src="https://mikeleonida.github.io/Web-Design-Bootcamp-FCC/public/SurveyFormPage.jpg"
+            alt="project"
+          />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Survey Form Page
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+
+      <a href="https://mikeleonida.github.io/Web-Design-Bootcamp-FCC/landing%20page/index.html" target="_blank"
+        class="project project-tile">
+        <img
+            class="project-image"
+            src="https://mikeleonida.github.io/Web-Design-Bootcamp-FCC/public/CatsLandingPage.jpg"
+            alt="project"
+          />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Cats Landing Page
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+    </div>
+  </section>
+
+  <!-- END PROJECTS SECTION -->
+
+  <!-- START CONTACT SECTION -->
+
+  <section id="contact" class="contact-section">
+    <div class="contact-section-header">
+      <h2>Let's work together...</h2>
+      <a id="profile-link" href="https://www.github.com/mikeleonida" target="_blank"
+        class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+  </section>
+
+  <!-- END CONTACT SECTION -->
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-white: #f0f0f0;
+  --main-green: yellowgreen;
+  --main-blue: #45567d;
+  --main-gray: #303841;
+}
+
+body {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--main-white);
+}
+
+#navbar {
+  /* position: sticky; */
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  background-color: teal;
+  color: white;
+  height: 4rem;
+  padding-top: 0.5rem;
+  z-index: 10;
+  opacity: 100;
+}
+
+nav > ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#navbar li {
+  list-style: none;
+  text-decoration: none;
+  /* position: relative; */
+  text-align: center;
+  color: linen;
+  /* border-top: 2px dashed yellowgreen; */
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: yellowgreen;
+  }
+}
+
+#welcome-section {
+  padding-top: 15vh;
+  height: 55vh;
+  background-color: var(--main-green);
+}
+
+.project-tile {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+  margin: 5px;
+}
+
+img {
+  width: 500px;
+  height: auto;
+}
+
+
+** end of undefined **
+
