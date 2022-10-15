@@ -61,27 +61,30 @@ nav > ul {
   background-color: var(--main-green);
 }
 
-#projects {
+.projects-grid {
   display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
   justify-content: center;
+  /* justify-content: center;
   align-items: center;
-  text-align: center;
-  padding-top: 3.6rem;
-  direction: auto;
-  padding: 0 2rem;
-  justify-items: auto;
+  text-align: center; */
+  /* padding-top: 3.6rem; */
+  /* direction: auto; */
+  /* padding: 0 2rem; */
+  /* justify-items: auto; */
   background: var(--main-gray);
 }
 
-.project-tile {
+/* .project-tile {
   height: 200px;
   width: 200px;
   background-color: var(--main-blue);
   margin: 5px;
-}
+} */
 
 .project-tile img {
-  width: 300px;
+  width: 250px;
   height: auto;
 }
 
