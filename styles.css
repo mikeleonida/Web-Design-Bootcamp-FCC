@@ -63,9 +63,11 @@ nav > ul {
 
 .projects-grid {
   display: grid;
+  grid-auto-flow: column;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(2, auto);
-  justify-content: center;
+  justify-content: space-evenly;
+  align-content: center;
   /* justify-content: center;
   align-items: center;
   text-align: center; */
@@ -73,19 +75,29 @@ nav > ul {
   /* direction: auto; */
   /* padding: 0 2rem; */
   /* justify-items: auto; */
-  background: var(--main-gray);
+  background-color: #000000;
 }
 
-/* .project-tile {
-  height: 200px;
-  width: 200px;
-  background-color: var(--main-blue);
-  margin: 5px;
-} */
+.project-tile {
+  /* background-color: var(--main-blue); */
+  margin: 2rem 0 0 0;
+  /* color: yellow; */
+}
+
+.project-tile:last-of-type {
+  margin-bottom: 2rem;
+}
 
 .project-tile img {
   width: 250px;
   height: auto;
+}
+
+.project-tile p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
 }
 
 .contact-section {
