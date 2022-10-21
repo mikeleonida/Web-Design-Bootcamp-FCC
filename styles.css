@@ -8,6 +8,7 @@
   --main-green: yellowgreen;
   --main-blue: #45567d;
   --main-gray: teal;
+  --main-black: #000000;
 }
 
 body {
@@ -37,14 +38,14 @@ nav > ul {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 
-#navbar li {
+nav > ul > li {
   list-style: none;
   text-decoration: none;
   text-align: center;
-  color: linen;
+  padding: 0 2rem 0 0;
   /* border-top: 2px dashed var(--main-green); */
 }
 
@@ -56,9 +57,14 @@ nav > ul {
 
 #welcome-section {
   padding-top: 15vh;
-  height: 55vh;
+  height: 50vh;
   text-align: center;
   background-color: var(--main-green);
+}
+
+#welcome-section p {
+  color: var(--main-black);
+  font-style: italic;
 }
 
 .projects-grid {
@@ -75,7 +81,7 @@ nav > ul {
   /* direction: auto; */
   /* padding: 0 2rem; */
   /* justify-items: auto; */
-  background-color: #000000;
+  background-color: var(--main-black);
 }
 
 .project-tile {
@@ -101,13 +107,33 @@ nav > ul {
 }
 
 .contact-section {
-  display: grid;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   text-align: center;
-  height: 80vh;
-  padding: 0 2rem;
+  justify-content: space-evenly;
+  height: 60vh;
+  /* padding: 0 2rem; */
   background: var(--main-green);
+}
+
+.contact-section h2 {
+  color: var(--main-black);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .contact-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
 }
 
 a {
@@ -116,7 +142,7 @@ a {
 }
 
 #contact a {
-  color: black;
+  color: var(--main-black);
   display: inline-table;
 }
 
